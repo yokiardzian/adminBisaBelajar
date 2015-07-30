@@ -55,6 +55,16 @@
             </div>
             <!-- /.navbar-header -->
 
+            <ul class="nav navbar-top-links navbar-right">
+            
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+            </ul>
             <!-- /.navbar-top-links -->
 
            
@@ -76,10 +86,10 @@
                             <a href="#"><i class="fa fa-fw"></i> Tryout<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="flot.html">Tambah Tryout</a>
+                                    <a href="#">Tambah Tryout</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Kelola Tryout</a>
+                                    <a href="#">Kelola Tryout</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -88,10 +98,10 @@
                            <a href="#"><i class="fa fa-fw"></i> Info<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="flot.html">Tambah Info</a>
+                                    <a href="#">Tambah Info</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Kelola Info</a>
+                                    <a href="#">Kelola Info</a>
                                 </li>
                             </ul>
                         </li>
@@ -99,10 +109,10 @@
                             <a href="#"><i class="fa fa-fw"></i> Statistik<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="flot.html">Statistik Pengunjung</a>
+                                    <a href="#">Statistik Pengunjung</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Statistik</a>
+                                    <a href="#">Statistik</a>
                                 </li>
                             </ul>
                         </li>
