@@ -44,15 +44,9 @@
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Dashboard Admin</a>
-            </div>
+            <?php
+                include('layout/navbar-header.php');
+            ?>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
@@ -106,6 +100,7 @@
                         <input type="radio" name="inlineRadioOptions" id="SBMPTN" value="option3"> Lain-lain
                     </label>
                     <br>
+                    <a class="glyphicon glyphicon-plus">Tambah Kategori</a>
                 </div>
             </div>
 
@@ -125,6 +120,7 @@
                         <input type="radio" name="inlineRadioOptions" id="UN" value="option3"> B. INGGRIS
                     </label>
                     <br>
+                    <a class="glyphicon glyphicon-plus">Tambah Pelajaran</a>
                 </div>
             </div>
             <br>
@@ -137,10 +133,6 @@
                         <label for="usr">Judul Bab:</label>
                             <input type="text" placeholder="Contoh: Matematika, IPS" class="form-control" id="usr">
                         <a class="glyphicon glyphicon-plus">Tambah Subbab</a>
-                    </div>
-                    <div class="form-group">
-                        <label for="usr">URL Video:</label>
-                            <input type="text" placeholder="Contoh: https://www.youtube.com/watch?v=VPRjCeoBqrI" class="form-control" id="usr">
                     </div>
                     <div class="form-group">
                         <label for="comment">Latihan:</label>
@@ -193,18 +185,9 @@
                     <a class="glyphicon glyphicon-plus">Tambah Soal</a>
 
                     <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">Tambah Kelas</h1>
-                        </div>
+                        
                     </div>
-                    <div class="form-group">
-                        <label for="comment">Ringkasan:</label>
-                            <textarea class="form-control" rows="10" id="comment">
-                                Lorem ipsum dolor sit amet, vocent complectitur ex eam, ne vim aeterno petentium. Cum semper facete alienum ea, vis graeci ornatus consequuntur id, mei hinc rationibus ad. Nec cu dicat omittantur, ei mei odio paulo, at sed impetus omittam. Eu eum vocent deleniti scaevola, ius fugit option sensibus an, in delenit appetere disputationi pri. Nisl nonumy viderer eu ius, et detracto sapientem vix. Luptatum postulant adversarium est ne.
-
-                                Et eius deserunt salutandi mei, duo id ridens erroribus, eu altera aliquam nominavi eum. Has ea meis forensibus signiferumque. Ferri vitae commune ea mei. Ex populo recteque mei, ne per enim nonumes omittam, labores fastidii ei has. Sit audire intellegat an, ex dicat aeterno fastidii vim.
-                            </textarea>
-                    </div>
+                    
 
                     <button type="button" class="btn btn-default">Simpan</button>
 

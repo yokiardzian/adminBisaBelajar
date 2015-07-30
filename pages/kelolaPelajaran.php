@@ -79,7 +79,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Kelola Kelas</h1>
+                    <h1 class="page-header">Kelola Pelajaran</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -111,45 +111,36 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Pilih Pelajaran</h3>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SD" value="option1"> MTK
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMP" value="option2"> IPA
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMA" value="option3"> IPS
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="UN" value="option3"> B. INGGRIS
-                    </label>
-                    <br>               
+                        
+                    <br>
+                    <a class="glyphicon glyphicon-plus">Tambah Pelajaran</a>
                 </div>
             </div>
+
+            
             
             <br>
 
             <table class="table table-hover">
                 <tbody>
                   <tr>
-                    <td>Sistem Persamaan Linear Dua Variabel</td>
+                    <td>Matematika</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Tiga Variabel</td>
+                    <td>IPA</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear X Variabel</td>
+                    <td>IPS</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Y Variabel</td>
+                    <td>B.Indonesia</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Z Variabel</td>
+                    <td>B.Inggris</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                 </tbody>

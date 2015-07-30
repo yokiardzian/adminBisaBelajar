@@ -79,79 +79,50 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Kelola Kelas</h1>
+                    <h1 class="page-header">Kelola Kategori</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Pilih Kategori</h3>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SD" value="option1"> SD
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMP" value="option2"> SMP
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMA" value="option3"> SMA
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="UN" value="option3"> UN
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SBMPTN" value="option3"> SBMPTN
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SBMPTN" value="option3"> Lain-lain
-                    </label>
+                        
                     <br>
+                    <a class="glyphicon glyphicon-plus">Tambah Kategori</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Pilih Pelajaran</h3>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SD" value="option1"> MTK
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMP" value="option2"> IPA
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMA" value="option3"> IPS
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="UN" value="option3"> B. INGGRIS
-                    </label>
-                    <br>               
-                </div>
-            </div>
+            
             
             <br>
 
             <table class="table table-hover">
                 <tbody>
                   <tr>
-                    <td>Sistem Persamaan Linear Dua Variabel</td>
+                    <td>SD</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Tiga Variabel</td>
+                    <td>SMP</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear X Variabel</td>
+                    <td>SMA</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Y Variabel</td>
+                    <td>UN</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
                   <tr>
-                    <td>Sistem Persamaan Linear Z Variabel</td>
+                    <td>SBMPTN</td>
                     <td><a link="">Edit</a> | <a link="">Hapus</a></td>
                   </tr>
+                  <tr>
+                    <td>Lain-lain</td>
+                    <td><a link="">Edit</a> | <a link="">Hapus</a></td>
+                  </tr>
+
                 </tbody>
             </table>
        
