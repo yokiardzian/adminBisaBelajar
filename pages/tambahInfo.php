@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard - Tambah Kelas</title>
+    <title>Dashboard - Tambah Info</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Dashboard Admin</a>
+                <a class="navbar-brand" href="index.html">Dashboard - Tambah Info</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -79,7 +79,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Tambah Kelas</h1>
+                    <h1 class="page-header">Tambah Info</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -109,41 +109,33 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Pilih Pelajaran</h3>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SD" value="option1"> MTK
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMP" value="option2"> IPA
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="SMA" value="option3"> IPS
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="inlineRadioOptions" id="UN" value="option3"> B. INGGRIS
-                    </label>
-                    <br>
-                </div>
-            </div>
             <br>
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Tambah Bab Baru</h3>
+                    <center><h3 class="panel-title">Tambah Informasi</h3></center>
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                        <label for="usr">Judul Bab:</label>
-                            <input type="text" placeholder="Contoh: Matematika, IPS" class="form-control" id="usr">
+                        <label for="usr">Judul Informasi:</label>
+                            <input type="text" placeholder="Judul Informasi" class="form-control" id="usr">
                         <a class="glyphicon glyphicon-plus">Tambah Subbab</a>
                     </div>
                     <div class="form-group">
-                        <label for="usr">URL Video:</label>
-                            <input type="text" placeholder="Contoh: https://www.youtube.com/watch?v=VPRjCeoBqrI" class="form-control" id="usr">
+                        <label for="usr">Penulis:</label>
+                            <input type="text" placeholder="Nama Penulis" class="form-control" id="usr">
+                    </div>
+                    <div class="input-group">
+                        <label for"usr">Video:</label>
+                            <span class="btn btn-file">   
+                        <input type="file"></span>
+                    </div>
+                    <div class="input-group">
+                        <label for"usr">Gambar:</label>
+                            <span class="btn btn-file">   
+                        <input type="file"></span>
                     </div>
                     <div class="form-group">
-                        <label for="comment">Latihan:</label>
+                        <label for="comment">Isi Informasi:</label>
                             <textarea class="form-control" rows="10" id="comment">
                                 Lorem ipsum dolor sit amet, vocent complectitur ex eam, ne vim aeterno petentium. Cum semper facete alienum ea, vis graeci ornatus consequuntur id, mei hinc rationibus ad. Nec cu dicat omittantur, ei mei odio paulo, at sed impetus omittam. Eu eum vocent deleniti scaevola, ius fugit option sensibus an, in delenit appetere disputationi pri. Nisl nonumy viderer eu ius, et detracto sapientem vix. Luptatum postulant adversarium est ne.
 
@@ -151,61 +143,14 @@
                             </textarea>
                     </div>
 
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"  checked>
-                            A. Jawaban Benar
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                            B. Jawaban Salah
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                            C. Jawaban Salah
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                            D. Jawaban Salah
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
-                            E. Jawaban Salah
-                        </label>
-                    </div>
 
                     <div class="form-group">
-                        <label for="comment">Pembahasan:</label>
-                            <textarea class="form-control" rows="10" id="comment">
-                                Lorem ipsum dolor sit amet, vocent complectitur ex eam, ne vim aeterno petentium. Cum semper facete alienum ea, vis graeci ornatus consequuntur id, mei hinc rationibus ad. Nec cu dicat omittantur, ei mei odio paulo, at sed impetus omittam. Eu eum vocent deleniti scaevola, ius fugit option sensibus an, in delenit appetere disputationi pri. Nisl nonumy viderer eu ius, et detracto sapientem vix. Luptatum postulant adversarium est ne.
-
-                                Et eius deserunt salutandi mei, duo id ridens erroribus, eu altera aliquam nominavi eum. Has ea meis forensibus signiferumque. Ferri vitae commune ea mei. Ex populo recteque mei, ne per enim nonumes omittam, labores fastidii ei has. Sit audire intellegat an, ex dicat aeterno fastidii vim.
+                        <label for="comment">Tag:</label>
+                            <textarea class="form-control" rows="2" id="comment">
+                                Lorem ipsum dolor sit amet, vocent complectitur ex eam, ne vim aeterno petentium. Cum semper facete alienum ea, vis graeci ornatus consequuntur id, mei hinc rationibus ad. 
                             </textarea>
                     </div>
-                    <a class="glyphicon glyphicon-plus">Tambah Soal</a>
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">Tambah Kelas</h1>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Ringkasan:</label>
-                            <textarea class="form-control" rows="10" id="comment">
-                                Lorem ipsum dolor sit amet, vocent complectitur ex eam, ne vim aeterno petentium. Cum semper facete alienum ea, vis graeci ornatus consequuntur id, mei hinc rationibus ad. Nec cu dicat omittantur, ei mei odio paulo, at sed impetus omittam. Eu eum vocent deleniti scaevola, ius fugit option sensibus an, in delenit appetere disputationi pri. Nisl nonumy viderer eu ius, et detracto sapientem vix. Luptatum postulant adversarium est ne.
-
-                                Et eius deserunt salutandi mei, duo id ridens erroribus, eu altera aliquam nominavi eum. Has ea meis forensibus signiferumque. Ferri vitae commune ea mei. Ex populo recteque mei, ne per enim nonumes omittam, labores fastidii ei has. Sit audire intellegat an, ex dicat aeterno fastidii vim.
-                            </textarea>
-                    </div>
-
+                    
                     <button type="button" class="btn btn-default">Simpan</button>
 
                 </div>

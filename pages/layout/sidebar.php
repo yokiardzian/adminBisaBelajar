@@ -25,7 +25,7 @@
                                     <a href="tambahTryout.php">Tambah Tryout</a>
                                 </li>
                                 <li>
-                                    <a href="#">Kelola Tryout</a>
+                                    <a href="kelolaTryout.php">Kelola Tryout</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -34,10 +34,10 @@
                            <a href="#"><i class="fa fa-fw"></i> Info<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">Tambah Info</a>
+                                    <a href="tambahInfo.php">Tambah Info</a>
                                 </li>
                                 <li>
-                                    <a href="#">Kelola Info</a>
+                                    <a href="kelolaInfo.php">Kelola Info</a>
                                 </li>
                             </ul>
                         </li>
@@ -45,10 +45,10 @@
                             <a href="#"><i class="fa fa-fw"></i> Statistik<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">Statistik Pengunjung</a>
+                                    <a href="statistikPengunjung.php">Statistik Pengunjung</a>
                                 </li>
                                 <li>
-                                    <a href="#">Statistik</a>
+                                    <a href="statistikPendaftar.php">Statistik Pendaftar</a>
                                 </li>
                             </ul>
                         </li>
