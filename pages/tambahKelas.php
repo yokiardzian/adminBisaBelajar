@@ -108,6 +108,11 @@
                     <br>
                 </div>
             </div>
+            <div class="input-group">
+                <label for"usr">Upload Icon:</label>
+                    <span class="btn btn-file">   
+                <input type="file"></span>
+            </div>
 
             <div class="row">
                 <div class="col-lg-12">
@@ -127,6 +132,12 @@
                     <br>
                 </div>
             </div>
+            <div class="input-group">
+                <label for"usr">Upload Icon:</label>
+                    <span class="btn btn-file">   
+                <input type="file"></span>
+            </div>
+            
             <br>
             <div class="panel panel-default">
                 <div class="panel-heading">
