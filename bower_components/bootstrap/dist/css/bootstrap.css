@@ -10,6 +10,18 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+body {
+    font-family: 'Aller Light' !important;
+    webkit-tap-highlight-color: #222;
+}
+
+@font-face { 
+    font-family: 'Aller Light'; 
+    src: url('/bower_components/font-awesome/fonts/Aller_Lt.ttf'); 
+}
+
+
 body {
   margin: 0;
 }
